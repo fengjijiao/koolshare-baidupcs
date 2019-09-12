@@ -21,6 +21,6 @@ dbus set softcenter_module_baidupcs_description=百度网盘同步管理工具
 dbus set softcenter_module_baidupcs_install=1
 dbus set softcenter_module_baidupcs_name=baidupcs
 dbus set softcenter_module_baidupcs_title=百度网盘
-dbus set softcenter_module_baidupcs_version=0.1
+dbus set softcenter_module_baidupcs_version=3.6.8
 
 rm -rf /tmp/baidupcs >/dev/null 2>&1
