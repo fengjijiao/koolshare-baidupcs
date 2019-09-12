@@ -4,7 +4,7 @@ source /koolshare/scripts/base.sh
 eval `dbus export baidupcs_`
 
 start_baidupcs(){
-	$KSROOT/bin/baidupcs web --port $baidupcs_port >/dev/null 2>&1 &
+	$KSROOT/bin/baidupcs web --port $baidupcs_port --access >/dev/null 2>&1 &
 }
 
 stop_baidupcs(){
