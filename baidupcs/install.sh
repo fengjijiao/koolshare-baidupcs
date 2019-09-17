@@ -17,9 +17,9 @@ chmod +x $KSROOT/bin/baidupcs
 chmod +x $KSROOT/scripts/baidupcs_*
 chmod +x $KSROOT/init.d/S99baidupcs.sh
 
-dbus set softcenter_module_baidupcs_description=百度网盘同步管理工具
+dbus set softcenter_module_baidupcs_description=百度网盘同步管理工具R
 dbus set softcenter_module_baidupcs_install=1
-dbus set softcenter_module_baidupcs_name=baidupcs
+dbus set softcenter_module_baidupcs_name=baidupcsr
 dbus set softcenter_module_baidupcs_title=百度网盘
 dbus set softcenter_module_baidupcs_version=3.6.8
 
